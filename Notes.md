@@ -29,3 +29,5 @@ function thisFunction() {
 }
 
 this loops through
+to install older version of python,
+py install 3.12.10
