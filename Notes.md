@@ -5,13 +5,14 @@
 
 - <View> 
     <Tetxt> important, in 'react-native' - 
-    <StyleSheet> impo, in 
-'react-native' - let style = StyleSheet.create( { con:{flex: 1, 
+- <StyleSheet> impo, in 
+'react-native' 
+- let style = StyleSheet.create( { con:{flex: 1, 
 jusCo:'center'}, secondcon:{ margin:24, fontSize: 18, textAlign: 
 'center'}} ) 
-   <Pressable onPress= { () => setMessage(you pressed me") }> 
+   - <Pressable onPress= { () => setMessage(you pressed me") }> 
    rather than 
-   <Button (imported from ReactNative) title="smtn smthn" 
+   - <Button (imported from ReactNative) title="smtn smthn" 
    onPress={ ()=> alert(alert)} />
 
 ## Native Feels
@@ -54,3 +55,7 @@ for the space game,
 py -3.10
 
 
+IBM Notes: 
+- Become a Software Engineer
+- Put it the work needed
+- 
