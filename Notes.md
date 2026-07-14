@@ -20,7 +20,29 @@
 - to have "item already included" in our site, use 
 	- votes.includes(value)
 - to detect if enter key is downed, eventListenr("keydown", (e)=> if (e.key === "Enter" && event.target.value !== "")
-- 
+- DRY: dont repeat your self, eg create a funcion, to update like you did
+- Better to give the user too many user controls (cant make everything possible) .
+`- toggle erors with , 
+```
+<span id='warning' class="red hidden"(for color:red and display:none) > 
+This person already voted </span>
+// in js
+if (voterName.value !== "") { voters.push(votername.value) increment count, and
+warning.classList.add('hidden"
+ else { warning.classlist.remove('hidden')
+ (a plus)   setTimeout(  () => warning.classList.add("hidden"); , 3000);
+```
+- to change light mode , dark mode
+```
+<div> <span1> Light Mode </span1> <button>light <button>dork </div>
+var = 'dark or light'
+dark.click>> span1.style.backgroundColor = var === 'dark'?'black':'white'
+	>> span1.style.color = var === 'dark'> 'white' : 'black';
+
+
+
+
+
 
 # REact Native
 
