@@ -1,5 +1,26 @@
+# IBM
+### Week 2: CSS
+- display: flex;
+- justify-content:  
+  - space-between; space-evently, space-around, flex-end ,  center
+- align-items:
+  - flex-start: Items align to the top of the container.
+  - flex-end: Items align to the bottom of the container.
+  - center: Items align at the vertical center of the container.
+  - baseline: Items display at the baseline of the container.
+  - stretch(default): Items are stretched to fit the container.
+- Flex Direction : row, row-reverse, column, column-reverse
 
-
+03 Web-API javascript
+- to create events, doc.querySele("#id").addEventListener("click", ()=> otherFunction());
+- to increment counter <span id='js'> 1</span>
+	- const ourCounterElement = doc.getElementById('js')
+	- ourCounterElement.innerText = parseInt(ourCounterElement.textContent)+1;
+	- OR ourCoun.textContent = Number(htmlCounter.textContent) +1;
+- to have "item already included" in our site, use 
+	- votes.includes(value)
+- to detect if enter key is downed, eventListenr("keydown", (e)=> if (e.key === "Enter" && event.target.value !== "")
+- 
 
 # REact Native
 
