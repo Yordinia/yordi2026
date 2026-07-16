@@ -39,8 +39,23 @@ var = 'dark or light'
 dark.click>> span1.style.backgroundColor = var === 'dark'?'black':'white'
 	>> span1.style.color = var === 'dark'> 'white' : 'black';
 
+- getAttributes , setAttributes, functions on elements to hold values
+- more standard are, dataset.attr = "  ",
+- change and blur ere event listeners for input
+- for "keypress" event.key === "Enter"  
+- select with open and close ,with name='userChoice' and option with values '1' '2' '3' .. 
+- a form that has a button has a  type submit by default
+- <form action='/destination-url'> 
+- call 
 
 
+05 Express 
+- NPM - npm init , to install cop package, `npm install cowsay'
+- in Ubuntu / debian: sudo apt install cowsay
+#### npx to run packages
+- install with -g to run it cowsay, use `npx cowsay' to run them
+- installs all its dependencies also, so we need to gitignore node_modules, node_modules/
+- make scripts executable ` chmod +x scr.sh` use `!/bin/bash` to make them run shell
 
 
 
@@ -55,9 +70,6 @@ jusCo:'center'}, secondcon:{ margin:24, fontSize: 18, textAlign:
 'center'}} ) 
    - <Pressable onPress= { () => setMessage(you pressed me") }> 
    rather than 
-   - <Button (imported from ReactNative) title="smtn smthn" 
-   onPress={ ()=> alert(alert)} />
-
 ## Native Feels
 - <Link > </Link> from expo-router is awwesome <Link href={/details'}> 
 <text></text> </Link>
